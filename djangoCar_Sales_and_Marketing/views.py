@@ -11,12 +11,11 @@ def insertData(request):
         name = request.POST.get('name')
         phonenumber = request.POST.get('phonenumber')
         carname = request.POST.get('carname')
-        numplate = request.POST.get('numplate')
         date = request.POST.get('date')
         client = request.POST.get('client')
         phonenum = request.POST.get('phonenum')
 
-        query = Cars(name=name,phonenumber=phonenumber,carname=carname,numplate=numplate,date=date,client=client,phonenum=phonenum)
+        query = Cars(name=name, phonenumber=phonenumber, carname=carname, date=date, client=client, phonenum=phonenum)
         query.save()
         return redirect("/")
 
@@ -40,7 +39,6 @@ def updateData(request, id):
     if request.method == "POST":
         name = request.POST.get('name')
         phonenumber = request.POST.get('phonenumber')
-        carname = request.POST.get('carname')
         numplate = request.POST.get('numplate')
         date = request.POST.get('date')
         client = request.POST.get('client')
@@ -49,8 +47,8 @@ def updateData(request, id):
         edit = Cars.objects.get(id=id)
         edit.name = name
         edit.phonenumber = phonenumber
-        edit.carname= carname
-        edit.numplate = numplate
+        edit.carname = carname
+        edit.date = date
         edit.client = client
         edit.phonenum = phonenum
         edit.save()

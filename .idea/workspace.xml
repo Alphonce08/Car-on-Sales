@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79bb7a20-6d10-4a10-906c-423d2f9a0ade" name="Changes" comment="" />
+    <list default="true" id="79bb7a20-6d10-4a10-906c-423d2f9a0ade" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCar_Sales_and_Marketing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCar_Sales_and_Marketing/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,6 +83,8 @@
       <workItem from="1680793926450" duration="2129000" />
       <workItem from="1680796099751" duration="1512000" />
       <workItem from="1680798436870" duration="35000" />
+      <workItem from="1680798521327" duration="1079000" />
+      <workItem from="1680801157732" duration="240000" />
     </task>
     <servers />
   </component>
